@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#headerin{
+    width: 80%;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+#headerizq{
+    width: 50%;
+    float: left;
+}
+#headerder{
+    width: 50%;
+    float: right;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    float: right;
+    margin-left: 30px;
+
+}
+header nav li{
+    color: #222;
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+
+input[value="Entrar"]{
+    background-color: white;
+    font-size:20px;
+    border: solid 1px #222;
+    border-radius: 4px;
+    margin-top: -4px;
+}
+#content{
+    background-image: url(../img/global.jpg);
+    background-size: cover;
+    padding: 30px 0;
+}
+#contentin {
+    width: 57%;
+    margin: 0 auto;
+    border-radius: 8px; 
+    background-color: #eee;
+    
+}
+#contentizq{
+    width: 60%;
+    float: left;
+    background-color: white;
+    border-radius: 8px 0 0 8px;
+}
+#contentder{
+    width: 40%;
+    float: right;
+    border-radius: 0 8px 8px 0;
+}
+#contentizq input[type="text"], #contentizq input[type="password"]{
+    width: 99%;
+    border: none;
+    border-bottom: solid 1px #aaa;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#contentizq input[type="checkbox"] {
+    background-color: red;
+    border-radius: 50%; 
+}
+#contentizq input[type="submit"] {
+    width: 100%;
+    background-color: #65D686;
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px; 
+}
+#contentizq img {
+    border: solid 1px #999;
+    border-radius: 44px;
+    padding: 6px;
+    margin: 0 10px;
+}
+#contentder input[type="button"]{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px; 
+}
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+#footerin{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#footerizq{
+    width:30%;
+    float: left;
+    color: white;
+    font-size: 16px;
+}
+#footerder{
+    width: 70%;
+    float: right;
+    color: #cccc;
+}
+footer nav li {
+    color: #aaa;
+    font-size:18px;
+}
+.gris {
+    color: #999;
+}
+.p40 {
+    padding: 40px;
+}
+.center{
+    text-align: center;
+}
+
